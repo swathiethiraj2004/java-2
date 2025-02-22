@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class main{
+    public static void main(String[]args){
+        Scanner a = new Scanner(System.in);
+        int n = a.nextInt();
+        int i = n;
+        do{
+            System.out.println(i);
+            i+=n;
+        }while(i<=1000);
+    }
+}
