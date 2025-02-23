@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class main{
+    public static void main (String[]args){
+        Scanner v = new Scanner(System.in);
+        String firstName = v.nextLine();
+        String lastName = v.nextLine();
+        String fullName = firstName+lastName;
+        int a = v.nextInt();
+        int i = 1;
+        while( i<=a){
+        System.out.println(fullName);
+        i++;
+        }
+    }
+}
